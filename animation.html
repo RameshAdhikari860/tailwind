@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .hero{
+            height: 100vh;
+            width: 100vw;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .ground{
+            height: 60%;
+            width: 60%;
+            background-color: greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items:end ;
+           
+
+        }
+        .ball{
+            height: 50px;
+            width: 50px;
+            /* background:linear-gradient(rgba(108, 49, 121, 0.785),rgba(22, 22, 220, 0.702),rgba(213, 76, 76, 0.746)); */
+            background-image: url(data:image/png;base64,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);
+            background-size: contain ;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            animation:don 3s linear infinite ;
+        }
+  @keyframes don {
+            0% {transform:translate(0px) rotate(0deg) ;}
+       
+           
+            100% {transform: translate(0px) rotate(-360deg) ;}
+        }      
+
+        @keyframes hero{
+           
+        }
+
+    </style>
+    </head>
+    <body>
+        <section class="hero">
+            <div class="ground">
+                <div class="ball">
+
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

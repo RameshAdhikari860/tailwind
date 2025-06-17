@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+    <body>
+        <!--
+        
+        
+        Form
+            input type text
+            password
+            email
+            tel
+            radio
+            options->value 
+            checkbox
+            file-> photo
+            placeholder
+            required
+            submit
+
+        -->
+
+        <form>
+            <label for="name">Enter your Name</label> <br>
+            <input type="text" placeholder="Ramesh Adhikari" required>
+            <br>
+            <label for="password">Enter your password</label> <br>
+            <input type="password" placeholder="enter your password" required>
+            <br>
+            <label for="email">Enter your Email</label> <br>
+            <input type="email" placeholder="raramesh@gmail.com" required>
+            <br>
+            <label for="phone">Enter your Phone Number</label> <br>
+            <input type="tel" placeholder="98xxxxxxx">
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female">
+            <label for="other">other</label>
+            <input type="radio" name="gender" value="other">
+
+            <br>
+            <label for="photo">Select your picture </label>
+            <br>
+            <input type="file">
+            <br>
+
+            <label for="country">Select your Country</label>
+            <select name="country">
+                <option name='country' value="Nepal">Nepal</option>
+                <option name='country' value="India">India </option>
+                <option name='country' value="china">China </option>
+            </select>
+
+            <br>
+            <br>
+            <label for="accept"> Accept terms and Conditions </label>
+            <input type="checkbox">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

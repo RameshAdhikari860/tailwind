@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+          .parent{
+            display: flex;
+            align-items: center;
+          }
+
+          header{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+          }
+           .nav-logo{
+            display: flex;
+            align-items: center;
+           }
+           .nav-search{
+            flex-grow: 1;
+            /* background-color: bisque; */
+            padding: 20px;
+           }
+           .nav-search input{
+            height: 30px;
+            width: 100%;
+            border-radius: 9%;
+           }
+           .info-banner{
+            display: flex;
+           }
+          
+        </style>
+    </head>
+    <body>
+        <header>
+            <!-- logo and button -->
+            <div class="nav-logo">
+                <img
+                    src="https://www.digitalpathshalanepal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.0f377457.png&w=640&q=75"
+                    alt>
+                <div><button><i class="fa-solid fa-bars"></i></button></div>
+            </div>
+            <div class="nav-search">
+                <input type="text">
+            </div>
+
+            <nav>
+                <a href>Home</a>
+                <a href>Products</a>
+                <a href>Orders</a>
+                <a href>Services</a>
+
+            </nav>
+        </header>
+
+        <div class="parent">
+            <div class="red">
+                <h1>this is heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis vitae corrupti, itaque laborum quae ipsa atque
+                    reprehenderit nostrum laboriosam voluptatum, quidem aliquid,
+                    magni amet est?</p>
+            </div>
+            <div class="blue"><img
+                    src="https://www.digitalpathshalanepal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcollage-m.474a60f3.webp&w=1080&q=75"
+                    alt></div>
+
+        </div>
+
+        <div class="info-banner">
+            <div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores pariatur vitae ea molestiae aliquam quis.</div>
+                <div><a href>Learn More</a></div>
+            </div>
+            <div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores pariatur vitae ea molestiae aliquam quis.</div>
+                <div><a href>Learn More</a></div>
+            </div>
+            <div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores pariatur vitae ea molestiae aliquam quis.</div>
+                <div><a href>Learn More</a></div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+
+    </body>
+</html>
